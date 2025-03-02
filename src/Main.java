@@ -2,9 +2,14 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int num = 0;
-            for (num = 10; num >= 0; num -= 2) {
-                System.out.print(num + " ");
+        int row;
+        int col;
+
+        for (row = 0; row < 5; row++) {
+            for (col = 0; col < 5; col++) {
+                System.out.print("*");
             }
+            System.out.println();
+        }
     }
 }
